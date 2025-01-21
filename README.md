@@ -5,12 +5,13 @@ Unfortunately, Microsoft Store has removed my developer account along with all o
 You can still download the latest versions from this repository. However, please note that since I can no longer monetize these apps, I may not actively update them.
 
 ### Steps to Install:
-1. **Enable Developer Mode**:
+1. **Install the `.cer` file**:
+   - Import the certificate to **Local Machine > Trusted Root Certification Authorities** and **Local Machine > Trusted Publishers**.
+
+2. **Install the `.msix` file**:
+   - Double-click the `.msix` file and follow the installation prompts.
+
+(Optinal) **Enable Developer Mode** for side Loading Apps:
    - Go to **Settings > Update & Security > For Developers**.
    - Select **Developer Mode** and confirm.
 
-2. **Install the `.cer` file**:
-   - Import the certificate to **Local Machine > Trusted Root Certification Authorities** and **Local Machine > Trusted Publishers**.
-
-3. **Install the `.msix` file**:
-   - Double-click the `.msix` file and follow the installation prompts.
